@@ -1,4 +1,4 @@
-const PublicController = require('../features/public/public.controller');
+const PublicController = require('../controllers/public/public.controller');
 
 const registerPublicRoutes = (app) => {
   app.post('/contact', PublicController.contactUs);
